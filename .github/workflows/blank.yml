@@ -2,11 +2,11 @@ on: [push]
 
 # Environment variables available to all jobs and steps in this workflow
 env:
-  REGISTRY_NAME: vickybytes
-  CLUSTER_NAME: vickybytes
-  CLUSTER_RESOURCE_GROUP: GitHubActionsSeries
+  REGISTRY_NAME: vickbytes
+  CLUSTER_NAME: kubeshow
+  CLUSTER_RESOURCE_GROUP: devopsforall
   NAMESPACE: vickybytesnames
-  SECRET: vickybytes
+  SECRET: vickbytes
   APP_NAME: azure-vote-front
   
 jobs:
