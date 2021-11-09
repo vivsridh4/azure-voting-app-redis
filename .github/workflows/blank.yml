@@ -2,7 +2,7 @@ on: [push]
 
 # Environment variables available to all jobs and steps in this workflow
 env:
-  REGISTRY_NAME: vickbytes
+  REGISTRY_NAME: vickybytes
   CLUSTER_NAME: kubeshow
   CLUSTER_RESOURCE_GROUP: vship
   NAMESPACE: vickybytesnames
