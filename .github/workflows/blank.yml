@@ -4,7 +4,7 @@ on: [push]
 env:
   REGISTRY_NAME: vickybytes
   CLUSTER_NAME: kubeshow
-  CLUSTER_RESOURCE_GROUP: devopsforall
+  CLUSTER_RESOURCE_GROUP: vship
   NAMESPACE: vickybytesnames
   SECRET: vickbytes
   APP_NAME: azure-vote-front
