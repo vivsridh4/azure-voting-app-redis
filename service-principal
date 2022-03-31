@@ -1,0 +1,3 @@
+Run the following command to create an Azure Active Directory service principal to allow access from GitHub:
+
+az ad sp create-for-rbac --sdk-auth --name http://eshop-learn-sp --role Contributor --scopes /subscriptions/<SUBSCRIPTION-ID>
